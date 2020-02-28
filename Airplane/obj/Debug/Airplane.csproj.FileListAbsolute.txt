@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\Airplane\Airplane\bin\Debug\Airplane.exe.config
+C:\Users\admin\source\repos\Airplane\Airplane\bin\Debug\Airplane.exe
+C:\Users\admin\source\repos\Airplane\Airplane\bin\Debug\Airplane.pdb
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.AirControl.resources
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.Properties.Resources.resources
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.exe
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.pdb
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.AddPassangers.resources
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.FlightInformationForm.resources
+C:\Users\admin\source\repos\Airplane\Airplane\obj\Debug\Airplane.PlaneCreation.resources
