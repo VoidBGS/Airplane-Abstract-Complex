@@ -117,27 +117,34 @@ namespace Airplane
                     string lName = tbLastName.Text;
                     int age = Convert.ToInt32(tbAge.Text);
                     string position = cbPosition.Text;
-                    if (rbSenior.Checked)
+                    if (a.GetPerson($"{fName} {lName}") == null)
                     {
-                        if (position == "PILOT")
+                        if (rbSenior.Checked)
                         {
-                            a.AddPersonEmployee(new Pilot(fName, lName, age, Position.SENIOR));
+                            if (position == "PILOT")
+                            {
+                                a.AddPersonEmployee(new Pilot(fName, lName, age, Position.SENIOR));
+                            }
+                            else if (position == "ATTENDANT")
+                            {
+                                a.AddPersonEmployee(new Attendant(fName, lName, age, Position.SENIOR));
+                            }
                         }
-                        else if (position == "ATTENDANT")
+                        else if (rbJunior.Checked)
                         {
-                            a.AddPersonEmployee(new Attendant(fName, lName, age, Position.SENIOR));
+                            if (position == "PILOT")
+                            {
+                                a.AddPersonEmployee(new Pilot(fName, lName, age, Position.JUNIOR));
+                            }
+                            else if (position == "ATTENDANT")
+                            {
+                                a.AddPersonEmployee(new Attendant(fName, lName, age, Position.JUNIOR));
+                            }
                         }
                     }
-                    else if (rbJunior.Checked)
+                    else
                     {
-                        if (position == "PILOT")
-                        {
-                            a.AddPersonEmployee(new Pilot(fName, lName, age, Position.JUNIOR));
-                        }
-                        else if (position == "ATTENDANT")
-                        {
-                            a.AddPersonEmployee(new Attendant(fName, lName, age, Position.JUNIOR));
-                        }
+                        MessageBox.Show("You cannot have people with the same name!");
                     }
                 }
                 else
